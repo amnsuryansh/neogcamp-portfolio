@@ -9,15 +9,11 @@ body{
     --section-color:#FEF3C7;
     --off-white:#F3F4F6;
 }
-
 .navigation{
     color:white;
     padding: 1rem;
     background-color: var(--primary-color);
-    border-bottom-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-
-
+    border-bottom-left-radius: 1rem;
 }
 .nav-name{
     font-weight: bold;
@@ -33,49 +29,20 @@ body{
     display:inline;
     padding:1rem;
 }
-.hero-img{
-    max-width: 350px;
-    display: block;
-    margin:auto;
-    padding:2rem;
-}
-.hero-heading{
-    text-align: center;
-    font-size: 2rem;
-    color:#1A324C
-}
 .link{
     text-decoration: none;
     color:white;
 }
-.section{
-    padding:2rem;
-}
-.ow{
-    background-color: var(--off-white);
-}
-.container{
-    padding: 0rem 1rem;
-}
-
-.container-center{
-    max-width:600px;
-    margin:auto;
-
-}
-section h1{
-    text-align: center;
-}
-
-
-
-
 .link-primary{
     padding:0.5rem;
     border-radius:0.5rem;
     background-color: var(--primary-color);
-    
-    
+}
+.image-head{
+   max-width: 350px;
+   display: block;
+   margin:auto;
+   padding:2rem;
 }
 
 
@@ -86,12 +53,26 @@ section h1{
     border: 1px solid var(--primary-color);
     
 }
+.section{
+    padding:2rem;
+}
+.container{
+    padding: 0rem 2rem;
+}
 
+.container-center{
+    max-width:600px;
+    margin:auto;
 
-
+}
+.head{
+    text-align: center;
+    padding-bottom: 2rem;
+}
 .footer{
     background-color:var(--primary-color);
     color:white;
+    margin-top:2rem;
     padding:4rem 1rem;
     text-align: center;
     border-top-left-radius:1rem;
