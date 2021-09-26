@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    font-family:'Montserrat', sans-serif;
+    margin:0;
+    padding: 0;
+}
 :root{
     --primary-color:#1A324C;
     --secondary-color:#1E40AF;
     --section-color:#FEF3C7;
     --off-white:#F3F4F6;
 }
-body{
-    font-family:'Montserrat', sans-serif;
-    margin:0;
-}
-
 
 .navigation{
     color:white;
@@ -20,7 +21,7 @@ body{
 }
 .nav-name{
     font-weight: 300;
-    font-size: large   ;
+    font-size: larger;
 }
 .no-bullet{
     list-style: none;
@@ -33,22 +34,11 @@ body{
     display:inline;
     padding:1rem;
 }
-.link{
-    text-decoration: none;
-    color:white;
-}
-.link-primary{
-    padding:0.5rem;
-    border-radius:0.5rem;
-    background-color: var(--primary-color);
-    
-    
-}
-.h1-head{
-    font-size:large;
-    font-weight: 300;
-    text-align: center;
-    color:#1E40AF;
+.hero-img{
+    max-width: 350px;
+    display: block;
+    margin:auto;
+    padding:2rem;
 }
 .hero-change{
     color:var(--secondary-color);
@@ -58,6 +48,10 @@ body{
     font-size: 2rem;
     color:var(--primary-color);
 }
+.link{
+    text-decoration: none;
+    color:white;
+}
 .section{
     padding:2rem;
 }
@@ -65,46 +59,52 @@ body{
     background-color: var(--off-white);
 }
 .container{
-    display: flex;
-    justify-content: flex-start;
-}
-.div-details{
-    max-width:900px;
-    margin-left:100px;
-    
-}
-.div-extra{
-    margin-bottom: 30px;
-}
-.image{
-    width:400px;
-    height: 300px;
-}
-.image-head{
-    max-width: 500px;
-    display: block;
-    margin:auto;
-    padding:3rem;
-}
-/* .container{
-        padding: 0rem 1rem;
+    padding: 0rem 1rem;
 }
 
 .container-center{
-    
+    max-width:600px;
+    margin:auto;
 
-} */
+}
+section h1{
+    text-align: center;
+}
+
+
+
+
+.link-primary{
+    padding:0.5rem;
+    border-radius:0.5rem;
+    background-color: var(--primary-color);
+    
+    
+}
+
+
+.link-secondary{
+    color:var(--primary-color);
+    padding:0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    
+}
+
+
+
 .footer{
     background-color:var(--primary-color);
     color:white;
-    padding:4rem 1rem;
+    margin-top:2rem;
+    padding:2rem 1rem;
     text-align: center;
     border-top-left-radius:1rem;
     border-top-right-radius:1rem;
 }
 .footer-list{
     text-align:center;
-    padding:2rem;
+    padding:1rem 2rem;
 }
 @media  screen and (max-width:600px) {
     .nav-list{

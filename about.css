@@ -3,24 +3,24 @@
 body{
     font-family:'Montserrat', sans-serif;
     margin:0;
+    padding: 0;
 }
 :root{
-    --primary-color:#8B5CF6;
+    --primary-color:#1A324C;
+    --secondary-color:#1E40AF;
     --section-color:#FEF3C7;
     --off-white:#F3F4F6;
 }
-
 .navigation{
     color:white;
     padding: 1rem;
     background-color: var(--primary-color);
     border-bottom-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
-
-
 }
 .nav-name{
-    font-weight: bold;
+    font-weight: 300;
+    font-size: larger;
 }
 .no-bullet{
     list-style: none;
@@ -33,6 +33,10 @@ body{
     display:inline;
     padding:1rem;
 }
+.link{
+    text-decoration: none;
+    color:white;
+}
 .hero-img{
     max-width: 350px;
     display: block;
@@ -44,14 +48,11 @@ body{
     font-size: 2rem;
     color:#1A324C
 }
-.link{
-    text-decoration: none;
-    color:white;
-}
 .section{
     padding:2rem;
 }
 .ow{
+    
     background-color: var(--off-white);
 }
 .container{
@@ -66,33 +67,10 @@ body{
 section h1{
     text-align: center;
 }
-
-
-
-
-.link-primary{
-    padding:0.5rem;
-    border-radius:0.5rem;
-    background-color: var(--primary-color);
-    
-    
-}
-
-
-.link-secondary{
-    color:var(--primary-color);
-    padding:0.5rem;
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
-    
-}
-
-
-
 .footer{
     background-color:var(--primary-color);
     color:white;
-    padding:4rem 1rem;
+    padding:2rem 1rem;
     text-align: center;
     border-top-left-radius:1rem;
     border-top-right-radius:1rem;
@@ -100,14 +78,4 @@ section h1{
 .footer-list{
     text-align:center;
     padding:2rem;
-}
-@media  screen and (max-width:600px) {
-    .nav-list{
-        text-align: right;
-
-    }
-    .inline-list{
-        display:block;
-        padding:1rem;
-    }
 }
