@@ -14,11 +14,10 @@ body{
     color:white;
     padding: 1rem;
     background-color: var(--primary-color);
-    border-bottom-left-radius: 1rem;
 }
-.nav-name{
-    font-weight: 300;
-    font-size: larger;
+.nav-name {
+    font-weight: 550;
+    font-size: x-large;
 }
 .no-bullet{
     list-style: none;
@@ -72,6 +71,9 @@ body{
 .section{
     padding:2rem;
 }
+section h1{
+    text-align: center;
+}
 .ow{
     background-color: var(--off-white);
 }
@@ -94,8 +96,8 @@ body{
     margin-top:2rem;
     padding:2rem 1rem;
     text-align: center;
-    border-top-left-radius:1rem;
-    border-top-right-radius:1rem;
+    border-top-left-radius:0.5rem;
+    border-top-right-radius:0.5rem;
 }
 .footer-list{
     text-align:center;
@@ -110,4 +112,54 @@ body{
         display:block;
         padding:1rem;
     }
+}
+
+
+.dropbtn {
+    color: white;
+    background-color:var(--primary-color);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropdown {
+position: relative;
+display: inline-block;
+background-color:var(--primary-color);
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 130px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+text-align:left;
+}
+
+.dropdown-content a {
+color: black;
+padding: 10px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color:var(--primary-color);
+}
+
+#icon {
+    margin-left: 4px;
+}
+
+.text-center {
+    text-align: center;
 }

@@ -16,12 +16,10 @@ body{
     color:white;
     padding: 1rem;
     background-color: var(--primary-color);
-    border-bottom-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
 }
-.nav-name{
-    font-weight: 300;
-    font-size: larger;
+.nav-name {
+    font-weight: 550;
+    font-size: x-large;
 }
 .no-bullet{
     list-style: none;
@@ -71,9 +69,6 @@ section h1{
     text-align: center;
 }
 
-
-
-
 .link-primary{
     padding:0.5rem;
     border-radius:0.5rem;
@@ -81,8 +76,6 @@ section h1{
     
     
 }
-
-
 .link-secondary{
     color:var(--primary-color);
     padding:0.5rem;
@@ -90,17 +83,14 @@ section h1{
     border: 1px solid var(--primary-color);
     
 }
-
-
-
 .footer{
     background-color:var(--primary-color);
     color:white;
     margin-top:2rem;
     padding:2rem 1rem;
     text-align: center;
-    border-top-left-radius:1rem;
-    border-top-right-radius:1rem;
+    border-top-left-radius:0.5rem;
+    border-top-right-radius:0.5rem;
 }
 .footer-list{
     text-align:center;

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 body{
-    font-family:'Montserrat', sans-serif;
+    font-family:monospace;
     margin:0;
     padding: 0;
 }
@@ -10,17 +10,17 @@ body{
     --secondary-color:#1E40AF;
     --section-color:#FEF3C7;
     --off-white:#F3F4F6;
+    --x-link-color:#1d3abe;
 }
 .navigation{
+    font-family:'Montserrat', sans-serif;
     color:white;
     padding: 1rem;
     background-color: var(--primary-color);
-    border-bottom-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
 }
-.nav-name{
-    font-weight: 300;
-    font-size: larger;
+.nav-name {
+    font-weight: 550;
+    font-size: x-large;
 }
 .no-bullet{
     list-style: none;
@@ -37,6 +37,13 @@ body{
     text-decoration: none;
     color:white;
 }
+.x-link{
+    text-decoration: none;
+    color:var(--x-link-color);
+}
+.about_me{
+    text-justify: inter-word;
+}
 .hero-img{
     max-width: 350px;
     display: block;
@@ -50,10 +57,14 @@ body{
 }
 .section{
     padding:2rem;
+    font-family: monospace;
+    font-size: large;
 }
 .ow{
-    
     background-color: var(--off-white);
+}
+.section > p {
+    line-height: 4px;
 }
 .container{
     padding: 0rem 1rem;
@@ -72,10 +83,50 @@ section h1{
     color:white;
     padding:2rem 1rem;
     text-align: center;
-    border-top-left-radius:1rem;
-    border-top-right-radius:1rem;
+    border-top-left-radius:0.5rem;
+    border-top-right-radius:0.5rem;
 }
 .footer-list{
     text-align:center;
     padding:2rem;
+}
+.dropbtn {
+    color: white;
+    background-color:var(--primary-color);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropdown {
+position: relative;
+display: inline-block;
+background-color:var(--primary-color);
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 130px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+text-align:left;
+}
+
+.dropdown-content a {
+color: black;
+padding: 10px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color:var(--primary-color);
 }
